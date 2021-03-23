@@ -1,0 +1,20 @@
+.logo {
+   text-align: center;
+}
+
+.logo img{
+    width:200px;
+    height:200px;
+}
+
+ion-content {
+    --ion-background-color:#ff914d;
+}
+
+ion-card {
+    --ion-background-color:white;
+}
+
+ion-content{
+    --background: url(../../assets/fundo.jpg) 0 0/100% 100% no-repeat;
+    }
