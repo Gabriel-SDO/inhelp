@@ -2,18 +2,27 @@ ion-header ion-toolbar img{
     width:50px;
 }
 
-.profissionais{
-    border:1px solid black;
-    height:80px;
-    width:100%;
+ion-item p{
+    float:left;
 }
 
-.profissionais img{
-    width:75px;
-    height:75px;
-    border-radius:50px;
+.localizacao {
+    float:right;
 }
 
-.retangulo{
-    
+.h3star{
+    height:25px;
+}
+
+.h3star h3{
+    float:left;
+}
+
+.star{
+    float:right;
+    color:#FFA500;	
+}
+
+.starr{
+    float:right;
 }
