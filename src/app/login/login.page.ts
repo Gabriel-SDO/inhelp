@@ -17,4 +17,7 @@ export class LoginPage implements OnInit {
     this.navCtrl.navigateRoot('/home');
   }
 
+  cadastrar(){
+    this.navCtrl.navigateRoot('/cadastro-profissionais');
+  }
 }
