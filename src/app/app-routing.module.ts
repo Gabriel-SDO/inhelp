@@ -22,6 +22,26 @@ const routes: Routes = [
   {
     path: 'cadastro-profissionais',
     loadChildren: () => import('./cadastro-profissionais/cadastro-profissionais.module').then( m => m.CadastroProfissionaisPageModule)
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+  {
+    path: 'cadastro-usuario',
+    loadChildren: () => import('./cadastro-usuario/cadastro-usuario.module').then( m => m.CadastroUsuarioPageModule)
+  },
+  {
+    path: 'contratacoes',
+    loadChildren: () => import('./contratacoes/contratacoes.module').then( m => m.ContratacoesPageModule)
+  },
+  {
+    path: 'bugs',
+    loadChildren: () => import('./bugs/bugs.module').then( m => m.BugsPageModule)
+  },
+  {
+    path: 'chat',
+    loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
   }
 ];
 

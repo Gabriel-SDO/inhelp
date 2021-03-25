@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-cadastro-profissionais',
-  templateUrl: './cadastro-profissionais.page.html',
-  styleUrls: ['./cadastro-profissionais.page.scss'],
+  selector: 'app-cadastro-usuario',
+  templateUrl: './cadastro-usuario.page.html',
+  styleUrls: ['./cadastro-usuario.page.scss'],
 })
-export class CadastroProfissionaisPage implements OnInit {
+export class CadastroUsuarioPage implements OnInit {
 
   constructor(public navCtrl : NavController) { }
 
@@ -17,4 +17,3 @@ export class CadastroProfissionaisPage implements OnInit {
     this.navCtrl.navigateRoot('/home');
   }
 }
-

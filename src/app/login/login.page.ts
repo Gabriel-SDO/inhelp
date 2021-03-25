@@ -20,4 +20,8 @@ export class LoginPage implements OnInit {
   cadastrar(){
     this.navCtrl.navigateRoot('/cadastro-profissionais');
   }
+  caduser(){
+    this.navCtrl.navigateRoot('/cadastro-usuario');
+  }
+  
 }

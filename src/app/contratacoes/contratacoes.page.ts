@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.page.html',
-  styleUrls: ['./home.page.scss'],
+  selector: 'app-contratacoes',
+  templateUrl: './contratacoes.page.html',
+  styleUrls: ['./contratacoes.page.scss'],
 })
-export class HomePage implements OnInit {
+export class ContratacoesPage implements OnInit {
 
   constructor(public navCtrl : NavController) { }
 
@@ -16,10 +16,4 @@ export class HomePage implements OnInit {
   perfil(){
     this.navCtrl.navigateRoot('/perfil');
   }
-
-  entrarchat(){
-    this.navCtrl.navigateRoot('/chat');
-  }
-
 }
-

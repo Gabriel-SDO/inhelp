@@ -1,8 +1,13 @@
 ion-header ion-toolbar img{
     width:50px;
 }
+ ion-content h1{
+     text-align: center;
+     color:gray;
+     border-bottom:1px solid gray;
+ }
 
-ion-item p{
+ ion-item p{
     float:left;
 }
 
@@ -18,12 +23,9 @@ ion-item p{
     float:left;
 }
 
-.star{
+.h3star p{
     float:right;
-    color:#FFA500;	
+  	
 }
 
-.starr{
-    float:right;
-}
 
