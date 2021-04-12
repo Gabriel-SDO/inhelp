@@ -10,6 +10,7 @@ export class AppComponent {
     { title: 'Cadastrar profissionais', url: '/cadastro-profissionais', icon: 'ellipse' },
     { title: 'Cadastrar usuários', url: '/cadastro-usuario', icon: 'ellipse' },
     { title: 'Contratações anteriores', url: '/contratacoes', icon: 'ellipse' },
+    { title: 'agenda-do-profissional', url: '/agenda-do-profissional', icon: 'ellipse' },
     { title: 'Relatar erros', url: '/bugs', icon: 'help-circle' },
     { title: 'Sair', url: '/login', icon: 'arrow-back-circle' },
    

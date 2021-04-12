@@ -1,9 +1,23 @@
 ion-header ion-toolbar img{
     width:50px;
 }
+.barra{
+    height:60px;
+    border:1px solid black;
+}
+
+ion-searchbar{
+    width:270px;
+}
+
+.filtrar{
+    float:right;
+    border:1px solid black;
+}
 
 ion-item p{
     float:left;
+    margin-bottom: 30px;
 }
 
 .localizacao {

@@ -42,6 +42,10 @@ const routes: Routes = [
   {
     path: 'chat',
     loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
+  },
+  {
+    path: 'agenda-do-profissional',
+    loadChildren: () => import('./agenda-do-profissional/agenda-do-profissional.module').then( m => m.AgendaDoProfissionalPageModule)
   }
 ];
 
