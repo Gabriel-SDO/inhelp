@@ -46,6 +46,14 @@ const routes: Routes = [
   {
     path: 'agenda-do-profissional',
     loadChildren: () => import('./agenda-do-profissional/agenda-do-profissional.module').then( m => m.AgendaDoProfissionalPageModule)
+  },
+  {
+    path: 'feedback',
+    loadChildren: () => import('./feedback/feedback.module').then( m => m.FeedbackPageModule)
+  },
+  {
+    path: 'pagamento',
+    loadChildren: () => import('./pagamento/pagamento.module').then( m => m.PagamentoPageModule)
   }
 ];
 

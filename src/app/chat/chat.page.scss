@@ -1,16 +1,99 @@
 .pessoa{
     width:320px;
-    height:70px;
+    height:75px;
     border-bottom:1px solid gray;
-    background-color:#FFA500;
+    background-color:#D3D3D3;
+    padding:5px;
 }
 
 .pessoa ion-avatar{
     float:left;
 }
+.dado1{
+    width:140px;
+    height:25px;
+    float:left;
+    margin-top:7px;
+    margin-left:5px;
+}
 
-.pessoa h1{
+.dado1 h1{
+    display: inline;
+    color:black;
+    font-size:20px;
+}
+
+.dado2{
+    width:140px;
+    height:25px;
+    float:left;
+    margin-left:5px;
+}
+
+.dado2 p{
+    display: inline;
+    color:black;
+    font-size:13px;
+}
+
+.mensagens{
+    height:485px;
+}
+
+.mensagem1{
+    height:70px;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.mensagem1 ion-avatar{
+    float:left;
+}
+
+.mensagem1 .conteudo{
+    width:180px;
+    height:70px;
+    float:left;
+    background-color:#D3D3D3;
+    border-radius:10px;
+    margin-left:10px;
+}
+
+.mensagem1 .conteudo .escrita{
+    height:20px;
+    margin-top:25px;
+    margin-left:10px;
+}
+
+.mensagem1 .conteudo .escrita p{
+    display:inline;
+}
+
+.mensagem2{
+    height:70px;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+.mensagem2 ion-avatar{
     float:right;
-    color:white;
-    margin-bottom:60px;
+}
+
+.mensagem2 .conteudo{
+    width:180px;
+    height:70px;
+    float:left;
+    background-color:#A9A9A9;
+    border-radius:10px;
+    margin-left:50px;
+}
+
+.mensagem2 .conteudo .escrita{
+    height:20px;
+    margin-top:25px;
+    margin-left:10px;
+}
+
+.mensagem2 .conteudo .escrita p{
+    display:inline;
 }

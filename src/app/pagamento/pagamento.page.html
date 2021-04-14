@@ -1,0 +1,49 @@
+<ion-header>
+
+  <ion-toolbar>
+
+    <ion-buttons slot="secondary">
+
+      <ion-button  (click)="perfil()">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+
+    </ion-buttons>
+
+    <img src="../../assets/logo.png">
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/pessoa1.jpg">
+    </ion-avatar>
+    <ion-label>João mignácio</ion-label>
+  </ion-item>
+
+  <div class="dados">
+
+    <ion-card>
+
+      <p>Digite seus dados para confirmar o pagamento</p>
+
+      <ion-input placeholder="Cpf"></ion-input>
+
+      <ion-input placeholder="Email"></ion-input>
+
+      <ion-input placeholder="Senha"></ion-input>
+
+      <p>Valor: R$ 430,30</p>
+
+    </ion-card>
+
+    <ion-button expand="full">Confirmar pagamento</ion-button>
+
+  
+  </div>
+
+</ion-content>

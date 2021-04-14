@@ -16,4 +16,9 @@ export class ContratacoesPage implements OnInit {
   perfil(){
     this.navCtrl.navigateRoot('/perfil');
   }
+
+  feedback(){
+    this.navCtrl.navigateRoot('/feedback');
+  }
+
 }

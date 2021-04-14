@@ -1,18 +1,24 @@
 ion-header ion-toolbar img{
     width:50px;
 }
+
+ion-label{
+    height:50px;
+}
 .barra{
-    height:60px;
-    border:1px solid black;
+    height:63px;
 }
 
 ion-searchbar{
+    float:left;
     width:270px;
 }
 
 .filtrar{
-    float:right;
-    border:1px solid black;
+    width:40px;
+    height:40px;
+    float:left;
+    margin-top:8px;
 }
 
 ion-item p{
