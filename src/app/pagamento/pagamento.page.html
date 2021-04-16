@@ -2,13 +2,7 @@
 
   <ion-toolbar>
 
-    <ion-buttons slot="secondary">
-
-      <ion-button  (click)="perfil()">
-        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
-      </ion-button>
-
-    </ion-buttons>
+    <ion-icon name="reorder-three-outline" class="menu"></ion-icon>
 
     <img src="../../assets/logo.png">
 
@@ -17,13 +11,6 @@
 </ion-header>
 
 <ion-content>
-
-  <ion-item>
-    <ion-avatar slot="start">
-      <img src="../../assets/pessoa1.jpg">
-    </ion-avatar>
-    <ion-label>João mignácio</ion-label>
-  </ion-item>
 
   <div class="dados">
 
@@ -39,11 +26,10 @@
 
       <p>Valor: R$ 430,30</p>
 
+      <ion-button expand="full">Confirmar pagamento</ion-button>
+
     </ion-card>
 
-    <ion-button expand="full">Confirmar pagamento</ion-button>
-
-  
   </div>
 
 </ion-content>

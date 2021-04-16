@@ -13,10 +13,6 @@ export class HomePage implements OnInit {
   ngOnInit() {
   }
 
-  perfil(){
-    this.navCtrl.navigateRoot('/perfil');
-  }
-
   entrarchat(){
     this.navCtrl.navigateRoot('/chat');
   }

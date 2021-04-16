@@ -1,6 +1,15 @@
 ion-header ion-toolbar img{
     width:50px;
+    float:right;
+    margin-right:10px;
 }
+
+ion-toolbar .menu{
+    height:50px;
+    width:30px;
+    margin-left:10px;
+}
+
  ion-content h1{
      text-align: center;
      color:gray;
